@@ -1,4 +1,4 @@
-package com.pinguela.shop;
+package shop;
 
 public class Producto {
 	private int id;

@@ -1,4 +1,4 @@
-package com.pinguela.shop;
+package shop;
 
 import java.util.Date;
 

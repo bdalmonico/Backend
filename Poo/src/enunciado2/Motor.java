@@ -1,4 +1,4 @@
-package com.pinguela.shop.enunciado2;
+package enunciado2;
 
 public class Motor {
 	private int litrosAceite = 0;

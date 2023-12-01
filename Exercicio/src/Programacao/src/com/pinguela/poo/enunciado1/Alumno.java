@@ -1,4 +1,4 @@
-package com.pinguela.poo.enunciado1;
+package Programacao.src.com.pinguela.poo.enunciado1;
 
 public class Alumno {
 	private Asignatura[] asignaturas = null;

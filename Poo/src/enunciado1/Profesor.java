@@ -1,4 +1,4 @@
-package poo.com.pinguela.poo.enunciado1;
+package enunciado1;
 
 import java.util.Random;
 

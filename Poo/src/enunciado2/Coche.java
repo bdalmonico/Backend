@@ -1,4 +1,4 @@
-package com.pinguela.shop.enunciado2;
+package enunciado2;
 
 public class Coche {
 	private Motor motor = null;

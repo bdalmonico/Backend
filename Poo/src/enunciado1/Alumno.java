@@ -1,4 +1,4 @@
-package poo.com.pinguela.poo.enunciado1;
+package enunciado1;
 
 public class Alumno {
 	private Asignatura[] asignaturas = null;

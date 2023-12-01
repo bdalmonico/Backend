@@ -1,4 +1,4 @@
-package com.pinguela.shop.enunciado2;
+package Programacao.src.com.pinguela.shop.enunciado2;
 
 public class Garaje {
 	private Coche coche = null;

@@ -1,4 +1,4 @@
-package com.pinguela.shop;
+package Programacao.src.com.pinguela.shop;
 import java.util.Date;
 public class QuienSoyMain {
 	public static void main(String[] args) {

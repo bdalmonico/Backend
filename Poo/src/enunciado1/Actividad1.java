@@ -1,4 +1,4 @@
-epackage enunciado1;
+package enunciado1;
 
 public class Actividad1 {
 

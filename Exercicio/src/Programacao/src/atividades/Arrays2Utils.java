@@ -1,4 +1,4 @@
-package atividades;
+package Programacao.src.atividades;
 
 public class Arrays2Utils {
 

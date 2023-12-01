@@ -1,4 +1,4 @@
-package com.pinguela.shop.enunciado2;
+package enunciado2;
 
 import java.util.Random;
 
