@@ -1,0 +1,32 @@
+package poo;
+
+public class CuentaTest {
+
+	public static void main(String[] args) {
+		Titular t = new Titular();
+		t.setApelido("Dalmonico");
+		t.setEdad(26);
+		t.setNombre("Bruno");
+		
+		Titular t2 = new Titular();
+		t2.setNombre("Camila");
+		t2.setApelido("Safanelli");
+		t2.setEdad(32);
+		
+		CuentaCorriente c1 = new CuentaCorriente(t, "IBAN ES64 69 0000 0 000 000", 22.22);
+		
+		CuentaCorriente c2 = new CuentaCorriente(t2, "ES 53535 1252525", 5000.00);
+		
+		System.out.println(c1.getTitular(t).getNombre() + " " + c1.getNumeroCuenta());
+		System.out.println();
+		System.out.println(c2.getNumeroCuenta() + " " +c2.getTitular(t2).getNombre());
+		
+		c1.imprimirCuentaSaldo();
+		c2.imprimirCuentaSaldo();
+		
+		c2.ingressar(2);
+		System.out.println("Ingressando dinheiro na sua conta " + c2.getTitular(t2).getNombre());
+		c2.imprimirCuentaSaldo();
+	}
+
+}

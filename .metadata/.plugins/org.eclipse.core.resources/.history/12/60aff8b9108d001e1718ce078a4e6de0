@@ -1,0 +1,55 @@
+package Programacao.src.com.pinguela.shop.copy;
+import java.util.Date;
+public class QuienSoyMain {
+	public static void main(String[] args) {
+		Empleado e1 = new Empleado();
+		e1.setNombre("David");
+		e1.setSalario(20000.1);
+		e1.setFechaNacimiento(new Date());
+	
+		Direccion d = new Direccion();
+		d.setTipoVia('C');
+		d.setNombreVia("Galicia");
+		d.setDireccionVia("15 - 1ºA");
+		e1.setDireccion(d);
+		
+		Empleado e2 = new Empleado();
+		e2.setNombre("Juxtin");
+		e2.setSalario(20002.2d);
+
+		Empleado e3 = new Empleado();
+		e3.setNombre("Jean");
+		e3.setSalario(20003.3d);
+
+		Empleado e4 = new Empleado();
+		e4.setNombre("Jaime");
+		e4.setSalario(20004.4d);
+		
+		Empleado bruno = e1;
+		Empleado iker = e4;
+		Empleado luis = new Empleado();
+		luis.setNombre(e2.getNombre());
+		Empleado carlos = e3;
+		carlos.setNombre(luis.getNombre());
+		e3 = iker;
+		e1.setNombre(e2.getNombre());
+		e2.setNombre(e4.getNombre());
+		e2.setSalario(iker.getSalario());
+		Empleado jean = bruno;
+		jean.setSalario(e2.getSalario());
+		luis.setNombre(e4.getNombre());
+		
+
+		System.out.println(e1);
+		System.out.println(e2);
+		System.out.println(e3);
+		System.out.println(e4);
+		System.out.println(bruno);
+		System.out.println(iker);
+		System.out.println(luis);
+		System.out.println(carlos);
+		
+
+	}
+
+}

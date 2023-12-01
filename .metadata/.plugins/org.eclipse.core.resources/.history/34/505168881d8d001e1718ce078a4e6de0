@@ -1,0 +1,33 @@
+package poo;
+
+public class CuentaAhorro extends CuentaCorriente {
+
+	private double interes = 0.0d;
+
+	public CuentaAhorro() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public CuentaAhorro(Titular titular, String numeroDeCuenta, double saldo, double interes) {
+
+	}
+
+	public CuentaAhorro(Titular titular, String numeroDeCuenta, double d) {
+		setSaldo(15.3);
+
+	}
+
+	public CuentaAhorro(Titular titular, String numeroDeCuenta) {
+		setSaldo(15.3);
+		setInteres(2.5);
+	}
+
+	public double getInteres() {
+		return interes;
+	}
+
+	public void setInteres(double interes) {
+		this.interes = interes;
+	}
+
+}

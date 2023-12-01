@@ -1,0 +1,23 @@
+package poo;
+
+public class CuentaTest {
+
+	public static void main(String[] args) {
+		Titular t  = new Titular();
+		t.setEdad(1);
+		
+		CuentaCorriente cuentaCorriente = new CuentaCorriente(t, "sdfm");
+//		cuentaCorriente.setNombre("Bruno");
+//		cuentaCorriente.setApelido("Dalmonico Schossland");
+//		cuentaCorriente.setEdad(26);
+		System.out.println(cuentaCorriente.getSaldo());
+		
+//		cuentaCorriente.imprimirTitular();
+//		
+//		System.out.println(cuentaCorriente.getApelido());
+//		
+		
+		
+	}
+
+}

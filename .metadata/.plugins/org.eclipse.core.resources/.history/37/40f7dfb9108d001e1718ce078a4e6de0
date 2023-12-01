@@ -1,0 +1,7 @@
+package Programacao.src.poo.copy;
+
+public class Titular {
+	private String nombre;
+	private String apelido;
+	private int edad;
+}

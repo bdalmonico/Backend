@@ -1,0 +1,13 @@
+package poo;
+
+public class CuentaTest {
+
+	public static void main(String[] args) {
+		Titular t = new Titular();
+		CuentaCorriente c = new CuentaCorriente(t, "asd", 22.22);
+		CuentaAhorro c1 = new CuentaAhorro();
+		
+		t.imprimirTitular();
+	}
+
+}

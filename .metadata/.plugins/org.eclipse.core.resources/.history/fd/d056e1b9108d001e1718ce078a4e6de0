@@ -1,0 +1,9 @@
+package Programacao.src.poo.copy;
+
+public class Asignatura {
+
+	private int id;
+	private double calificacion;
+	
+	
+}
