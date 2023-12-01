@@ -1,4 +1,4 @@
-package enunciado1;
+epackage enunciado1;
 
 public class Actividad1 {
 
@@ -28,6 +28,6 @@ public class Actividad1 {
 		double notaMedia = Profesor.calcularMedia(alumno);
 		double notaRedondeada =  profesor.redondearNota(notaMedia);
 		System.out.println("Nota media é: " + notaMedia 
-						+", Nota redondeada:  "+notaRedondeada);
+						+", Nota redondeada é:  "+notaRedondeada);
 	}
 }
